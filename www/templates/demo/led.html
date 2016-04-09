@@ -1,0 +1,11 @@
+<ion-view view-title="點亮LED燈">
+  <ion-content class="padding">
+    <!-- <img ng-src="{{webduino.face}}" style="width: 64px; height: 64px"> -->
+    <p>
+      <div id="demo-area-02-light" ng-class="switchClass">
+        <img src="https://blockly.webduino.io/media/off.png" ng-show="!isVisible" id="demo-area-02-off" ng-click="switchSelected()">
+        <img src="https://blockly.webduino.io/media/on.png" ng-show="isVisible" id="demo-area-02-on" ng-click="switchSelected()">
+      </div>
+    </p>
+  </ion-content>
+</ion-view>
